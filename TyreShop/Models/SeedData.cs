@@ -20,82 +20,47 @@ namespace TyreShop.Models
                 context.Products.AddRange(
                 new Product
                 {
-                    Name = "Kajak",
-                    Description = "Łódka przeznaczona dla jednej osoby",
-                    Category = "Sporty wodne",
-                    Price = 275M
+                    Name = "Opona Kleber 195/50/R15",
+                    Description = "Klasa średnia",
+                    Category = "osobowy",
+                    Price = 225M
                 },
                 new Product
                 {
-                    Name = "Kamizelka ratunkowa",
-                    Description = "Chroni przez utonięciem",
-                    Category = "Sporty wodne",
-                    Price = 48.75M
+                    Name = "Opona Michelin 225/45/R17",
+                    Description = "Klasa premium",
+                    Category = "osobowe",
+                    Price = 485M
                 },
                 new Product
                 {
-                    Name = "Piłka Adidas",
-                    Description = "Piłka do gry zatwierdzona przez FIFA",
-                    Category = "Piłka nożna",
-                    Price = 19.50M
+                    Name = "Opona Dębica 195/55/R15",
+                    Description = "Klasa średnia",
+                    Category = "osobowe",
+                    Price = 190M
                 },
                 new Product
                 {
-                    Name = "Buty do gry",
-                    Description = "Dostępne w kilku wariantach rozmiarowych",
-                    Category = "Piłka nożna",
-                    Price = 149.99M
+                    Name = "Opona Hankook 225/60/R17",
+                    Description = "Klasa wyższa",
+                    Category = "SUV",
+                    Price = 590M
                 },
                 new Product
                 {
-                    Name = "Rękawice bramkarskie",
-                    Description = "Solidna jakość - teraz obrona to czysta przyjemność",
-                    Category = "Piłka nożna",
-                    Price = 75.25M
+                    Name = "Opona Hankook 215/70/R16",
+                    Description = "Klasa wyższa",
+                    Category = "SUV",
+                    Price = 490M
                 },
                 new Product
                 {
-                    Name = "Składany stadion",
-                    Description = "Murawa na 35 000 osób",
-                    Category = "Piłka nożna",
-                    Price = 79500M
-                },
-                new Product
-                {
-                    Name = "Solidna bramka",
-                    Description = "Bramka piłkarska polskiej produkcji dla profesjonalistów",
-                    Category = "Piłka nożna",
-                    Price = 2500M
-                },
-                new Product
-                {
-                    Name = "Szachownica wielka i pionki do gry",
-                    Description = "Osiągają nawet rozmiary człowieka, przyjemność gwarantowana",
-                    Category = "Szachy",
-                    Price = 499.99M
-                },
-                new Product
-                {
-                    Name = "Szachownica mała i pionki do gry",
-                    Description = "Gram którą można wszędzie zabrać",
-                    Category = "Szachy",
-                    Price = 99.99M
-                },
-                new Product
-                {
-                    Name = "Niestabilne krzesło",
-                    Description = "Zmniejsza szanse przeciwnika",
-                    Category = "Szachy",
-                    Price = 29.75M
-                },
-                new Product
-                {
-                    Name = "Czapka dla gracza",
-                    Description = "Dodaje uroku oraz zwiększa szansę na zwycięstwo",
-                    Category = "Szachy",
-                    Price = 15M
+                    Name = "Opona Michelin 245/55/R18",
+                    Description = "Klasa wyższa",
+                    Category = "SUV",
+                    Price = 7950M
                 }
-                );
+                ); ;
                 context.SaveChanges();
             }
         }
